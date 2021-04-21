@@ -1,0 +1,74 @@
+/*
+Zerotheme.com | Free Html5 Responsive Templates
+aidar - A Single Grid System for Responsive Design
+Author: Kimmy
+Version : 3.0
+Author URI: https://www.zerotheme.com/
+*/
+/* -------------------------------------------- */
+/* ------------------Grid System--------------- */
+.aidar{ width: 1000px; position: relative; margin: 0 auto; padding: 0px;}
+.aidar:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.aidar .f-right{float: right!important;}
+.aidar .f-left{float: left!important;}
+
+.aidar .row{}
+.aidar .row:before,.row:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.aidar .row:after{clear: both; }
+.aidar .row{zoom: 1;}
+
+.aidar .wrap-col{margin:10px;}
+
+.aidar .col-1-2, .aidar .col-1-3, .aidar .col-2-3, .aidar .col-1-4, .aidar .col-2-4, .aidar .col-3-4, .aidar .col-1-5, .aidar .col-2-5, .aidar .col-3-5, .aidar .col-4-5, .aidar .col-1-6, .aidar .col-2-6, .aidar .col-3-6, .aidar .col-4-6, .aidar .col-5-6{float:left; display: inline-block;}
+
+.aidar .col-full{width:100%;}
+
+.aidar .col-1-2,.aidar .col-1-2-fixed{width:50%;}
+.aidar .offset-1-2{margin-left: 50%;}
+
+.aidar .col-1-3,.aidar .col-1-3-fixed{width:33.33%;}
+.aidar .col-2-3,.aidar .col-2-3-fixed{width:66.66%;}
+.aidar .offset-1-3{margin-left: 33.33%;}
+.aidar .offset-2-3{margin-left: 66.66%;}
+
+.aidar .col-1-4,.aidar .col-1-4-fixed{width:25%;}
+.aidar .col-2-4,.aidar .col-2-4-fixed{width:50%;}
+.aidar .col-3-4,.aidar .col-3-4-fixed{width:75%;}
+.aidar .offset-1-4{margin-left: 25%;}
+.aidar .offset-2-4{margin-left: 50%;}
+.aidar .offset-3-4{margin-left: 75%;}
+
+.aidar .col-1-5,.aidar .col-1-5-fixed{width:20%;}
+.aidar .col-2-5,.aidar .col-2-5-fixed{width:40%;}
+.aidar .col-3-5,.aidar .col-3-5-fixed{width:60%;}
+.aidar .col-4-5,.aidar .col-4-5-fixed{width:80%;}
+.aidar .offset-1-5{margin-left: 20%;}
+.aidar .offset-2-5{margin-left: 40%;}
+.aidar .offset-3-5{margin-left: 60%;}
+.aidar .offset-4-5{margin-left: 80%;}
+
+.aidar .col-1-6,.aidar .col-1-6-fixed{width:16.66%;}
+.aidar .col-2-6,.aidar .col-2-6-fixed{width:33.33%;}
+.aidar .col-3-6,.aidar .col-3-6-fixed{width:50%;}
+.aidar .col-4-6,.aidar .col-4-6-fixed{width:66.66%;}
+.aidar .col-5-6,.aidar .col-5-6-fixed{width:83.33%;}
+.aidar .offset-1-6{margin-left: 16.66%;}
+.aidar .offset-2-6{margin-left: 33.33%;}
+.aidar .offset-3-6{margin-left: 50%;}
+.aidar .offset-4-6{margin-left: 66.66%;}
+.aidar .offset-5-6{margin-left: 83.33%;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.aidar{width:960px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.aidar{width:768px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.aidar, .aidar .col-1-2, .aidar .col-1-3, .aidar .col-2-3, .aidar .col-1-4, .aidar .col-2-4, .aidar .col-3-4, .aidar .col-1-5, .aidar .col-2-5, .aidar .col-3-5, .aidar .col-4-5, .aidar .col-1-6, .aidar .col-2-6, .aidar .col-3-6, .aidar .col-4-6, .aidar .col-5-6{width:100%;}
+
+	.aidar .offset-1-2, .aidar .offset-1-3, .aidar .offset-2-3, .aidar .offset-1-4, .aidar .offset-2-4, .aidar .offset-3-4, .aidar .offset-1-5, .aidar .offset-2-5, .aidar .offset-3-5, .aidar .offset-4-5, .aidar .offset-1-6, .aidar .offset-2-6, .aidar .offset-3-6, .aidar .offset-4-6, .aidar .offset-5-6{margin-left:0;}
+}
