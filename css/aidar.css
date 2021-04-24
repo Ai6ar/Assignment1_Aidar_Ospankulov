@@ -1,12 +1,4 @@
-/*
-Zerotheme.com | Free Html5 Responsive Templates
-aidar - A Single Grid System for Responsive Design
-Author: Kimmy
-Version : 3.0
-Author URI: https://www.zerotheme.com/
-*/
-/* -------------------------------------------- */
-/* ------------------Grid System--------------- */
+
 .aidar{ width: 1000px; position: relative; margin: 0 auto; padding: 0px;}
 .aidar:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
